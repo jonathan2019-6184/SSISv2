@@ -66,7 +66,7 @@ def delete_student():
     if ret==0:
         conn=connection()
         cur=conn.cursor()
-        cur.execute("DELETE FROM STUDENTS WHERE ROLL_NO=?",(int(roll_no.get()),))
+        cur.execute("DELETE FROM STUDENTS WHERE IDNO=?",(int(idno.get()),))
         conn.commit()
         conn.close()
         t1.insert(END,"SUCCESSFULLY DELETED THE USER\n")
