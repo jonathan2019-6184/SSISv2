@@ -88,7 +88,7 @@ def clse():
 
 if __name__=="__main__":
     root=Tk()
-    root.title("Student Management System")
+    root.title("Simple Student Information System Version 2")
      
     name=StringVar()
     idno=StringVar()
@@ -109,7 +109,7 @@ if __name__=="__main__":
     label4=Label(root,text="CourseCode:")
     label4.place(x=0,y=90)
 
-    label5=Label(root,text="YearLevel:")
+    label5=Label(root,text="Yearlevel:")
     label5.place(x=0,y=120)
 
     label6=Label(root,text="Gender:")
