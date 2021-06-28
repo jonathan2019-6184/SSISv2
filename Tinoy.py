@@ -1,4 +1,3 @@
-
 ##Tinoy, Jonathan L.
 #BSSTAT
 
@@ -564,5 +563,8 @@ app.geometry("1650x650+0+0")
 app.mainloop()
 
         
+
+       
+
 
        
